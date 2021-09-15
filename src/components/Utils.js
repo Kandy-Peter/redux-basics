@@ -6,3 +6,5 @@ export const isEmpty = (value) => {
     (typeof value === "string" && value.trim().length === 0)
   );
 };
+
+//this function is imported and helps to know if an element isn't empty
